@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alba Estate - Luxury & Tranquility</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4EDE4;
+            color: #5A4A42;
+        }
+        .hero {
+            background: url('your-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            padding: 20px;
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+        }
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+        .btn {
+            background-color: #C19A6B;
+            padding: 15px 25px;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #A07750;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #5A4A42;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Discover your perfect escape where luxury meets tranquillity in the beautiful northeast Sardinia.</h1>
+    </div>
+    <div class="content">
+        <h2>Welcome to Alba Estate</h2>
+        <p>Experience the ultimate retreat in San Pantaleo, where elegance and serenity blend seamlessly.</p>
+        <a href="#booking" class="btn">Request a Booking</a>
+    </div>
+    <div class="section">
+        <h2>Gallery</h2>
+        <p>Beautiful landscapes, elegant interiors, and breathtaking views await you.</p>
+    </div>
+    <div class="section">
+        <h2>Guest Reviews</h2>
+        <p>"An unforgettable experience! Alba Estate is pure luxury and relaxation."</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Alba Estate. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
